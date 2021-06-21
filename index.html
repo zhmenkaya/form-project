@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="">Главная </a></li>
+                <li><a href="">Контакты</a></li>
+                <li><a href="">Форма обратной связи</a></li>
+            </ul>
+        </nav>
+        <h1>Форма обратной связи </h1>
+    </div>
+    <div>
+        <form class="form__wrap" action="#">
+            <fieldset class="form__top"> 
+                <p>
+                    <input placeholder="Иванов Иван Иванович" type="text">
+                </p>
+                <p>
+                    <input placeholder="Введите Ваш Email" type="text">
+                </p>
+                <p>
+                    <input placeholder="Введите Ваш телефон" type="text">
+                </p>
+                <p>
+                    <input placeholder="Введите Ваш телефон" type="text">
+                </p>
+            </fieldset>
+            <fieldset class="form__bottom">
+                <p>
+                    <label>Введите код на картинке справа</label>
+                    <input type="text">
+                </p>
+                <input type="image" src="./img/capcha.png" alt="">
+                <input type="submit" value="Отправить">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
