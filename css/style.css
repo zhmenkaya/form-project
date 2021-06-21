@@ -1,8 +1,25 @@
+@font-face{
+    font-family: "MontBold";
+    src: url(../fonts/Montserrat-Bold.ttf) format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: "RobotReg";
+    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .form__wrap{
     min-width: 920px;
     min-height: 820px;
     
 }
 .form__title{
-    font-style: robo;
+    font-family: "MontBold", serif;
+    font-weight: bold;
+    color: #0e1010;
+    font-size: 38px;
+    line-height: 36px;
 }
