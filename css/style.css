@@ -1,12 +1,12 @@
 @font-face{
     font-family: "MontsBold";
-    src: url("./fonts/Montserrat-Bold.ttf") format("ttf");
+    src: url("/fonts/Montserrat-Bold.ttf") format("ttf");
     font-style: normal;
     font-weight: bold;
 }
 @font-face{
     font-family: "RobotReg";
-    src: url("./fonts/Roboto-Regular.ttf") format("ttf");
+    src: url("/fonts/Roboto-Regular.ttf") format("ttf");
     font-style: normal;
     font-weight: normal;
 }
@@ -23,9 +23,9 @@ a{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     position: relative;
 }
 .form__overlay{
@@ -40,8 +40,8 @@ a{
 .form__block{
     border: 5px solid red;
     background-color: #fff;
-    max-height: 920px;
-    max-width: 820px;
+    height: 920px;
+    width: 820px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
