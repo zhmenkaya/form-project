@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 a{
     display: inline-block;
@@ -38,16 +39,19 @@ a{
     padding: 30px 0;
 }
 .form__block{
-    border: 5px solid red;
+    height: 820px;
+    width: 920px;
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
     background-color: #fff;
-    height: 920px;
-    width: 820px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    margin: 0 auto;
+    margin: 100px auto 0px auto;
 }
 
 .header__list{
@@ -55,7 +59,7 @@ a{
     text-align: center;
     justify-content: center;
     list-style-type: none;
-    padding: 70px 0 25px 0;
+    padding: 65px 0 20px 0;
 }
 .header__item{
     margin-right: 33px;
@@ -82,24 +86,32 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* margin:50px 210px; */
 }
-.form__center{
+.top__form{
     font-family: "RobotReg" , serif;
     color: #0e1010;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     width: 495px;
     height: 33px;
-    padding-left: 30px;
-    margin-bottom: 25px;
-}
-.form__center:hover{
+    padding-left: 28px;
+    border: 1px solid red;
+} 
+
+.form__center:first-child{
+    border: 1px solid red;
+    
+input , textarea:hover{
     background-color: #d3e6f4;
+}
+#form__textarea{
+    height: 145px;
 }
 .form__bottom{
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     /* position: relative;
     top: 50px;
     left: 0; */
@@ -109,7 +121,7 @@ a{
     height: 40px;
     margin-right: 20px;
 }
-.form__send{
+.form-bottom{
     font-family: "RobotReg" , serif;
     color: #fff;
     font-size: 24px;
@@ -121,5 +133,4 @@ a{
     justify-content: center;
     width: 208px;
     height: 66px;
-    position: absolute;
 }

@@ -24,28 +24,38 @@
                 <section class="form">
                     <div>
                         <form class="form__wrap" action="#">
-                            <fieldset class="form__top"> 
-                                <p>
-                                    <input class="form__center" placeholder="Иванов Иван Иванович" type="text">
-                                </p>
-                                <p>
-                                    <input class="form__center" placeholder="Введите Ваш Email" type="email">
-                                </p>
-                                <p>
-                                    <input class="form__center" placeholder="Введите Ваш телефон" type="number">
-                                </p>
-                                <p>
-                                    <textarea class="form__center" placeholder="Введите Ваш телефон" type="text" height="145"></textarea>
-                                </p>
+
+                            <fieldset class="form__top top"> 
+                                    <p class="top__form">
+                                        <label for="name"></label>
+                                        <input placeholder="Иванов Иван Иванович" type="text" name="name" required>
+                                        <label class="required"></label>
+                                    </p>
+                                    <p class="top__form">
+                                        <label for="name"></label>
+                                        <input placeholder="Введите Ваш Email" type="email" name="email" required>
+                                        <label class="required"></label>
+                                    </p>
+                                    <p class="top__form">
+                                        <label for="name"></label>
+                                        <input placeholder="Введите Ваш телефон" type="tel" name="tel" required>
+                                        <label class="required"></label>
+                                    </p>
+                                    <p class="top__form">
+                                        <label for="name"></label>
+                                        <textarea id="form__textarea" placeholder="Введите Ваш телефон" type="tel"></textarea>
+                                    </p>
                             </fieldset>
-                            <div class="form__bottom">
+
+                            <div class="form__bottom bottom">
                                 <p>
                                     <label>Введите код на картинке справа</label>
                                     <input  class="form__check" type="text">
                                 </p>
-                                <input type="image" src="./img/capcha.png" alt="">
-                                <!-- <input  class="form__send" type="submit" value="Отправить"></input> -->
+                                
+                                
                             </div>
+                            <div class="form-bottom"><input type="submit" value="Отправить"></div>
                         </form>
                     </div>    
                 </section>
