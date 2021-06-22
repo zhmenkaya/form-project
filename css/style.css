@@ -81,6 +81,27 @@ a{
     line-height: 36px;
     text-align: center;
     padding-bottom: 65px;
+    position: relative;
+}
+.header__title::before{
+    content:"";
+    background-image: url(../img/wavy-line.png);
+    display: block;
+    height: 8px;
+    width: 60px;
+    position: absolute;
+    top: -69px;
+    left: 411px;
+}
+.header__title::after{
+    content:"";
+    background-image: url(../img/wavy-line.png);
+    display: block;
+    height: 8px;
+    width: 60px;
+    position: absolute;
+    top: 62px;
+    left: 411px;
 }
 .form__top{
     display: flex;
