@@ -73,7 +73,7 @@ a{
     text-align: center;
     justify-content: center;
     list-style-type: none;
-    padding: 65px 0 20px 0;
+    padding: 65px 0 15px 0;
 }
 .header__item{
     margin-right: 33px;
@@ -89,7 +89,7 @@ a{
 }
 .header__title{
     font-family: "MontsBold" , sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     color: #0e1010;
     font-size: 38px;
     line-height: 36px;
