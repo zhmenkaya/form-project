@@ -55,7 +55,7 @@ a{
     position: relative;
 }
 
-.form__close-popup{
+.close-popup__btn{
     width: 35px;
     height: 35px;
     background-color:#e10101 ;
@@ -64,16 +64,9 @@ a{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
     position:absolute;
     top: -16px;
     left: 451px;
-}
-
-.close-popup__link{
-    
 }
 .header__list{
     display: flex;
