@@ -23,7 +23,7 @@ a{
     background-image: url(../img/background.png);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@ a{
     line-height: 12px;
 }
 .header__title{
-    font-family: "MontsBold" , serif;
+    font-family: "MontsBold" , sans-serif;
     font-weight: bold;
     color: #0e1010;
     font-size: 38px;
@@ -85,52 +85,75 @@ a{
 .form__top{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* margin:50px 210px; */
+    padding: 50px 210px 25px;
 }
 .top__form{
-    font-family: "RobotReg" , serif;
-    color: #0e1010;
+    font-family: "RobotReg" , sans-serif;
+    color: #bdbdbd;
     font-size: 18px;
     line-height: 20px;
     width: 495px;
     height: 33px;
     padding-left: 28px;
-    border: 1px solid red;
+    margin-bottom: 25px;
 } 
-
-.form__center:first-child{
-    border: 1px solid red;
-    
-input , textarea:hover{
-    background-color: #d3e6f4;
+.top__form:last-child{
+    margin-bottom: none;
 }
+.top__form:hover{
+    background-color: #d3e6f4;
+    color: black;
+}
+
 #form__textarea{
     height: 145px;
 }
-.form__bottom{
+
+.bottom__wrap{
+    padding-top: 43px;
     display: flex;
     justify-content: center;
-    /* padding-top: 40px; */
-    /* position: relative;
-    top: 50px;
-    left: 0; */
+    align-items: center;
+    margin-bottom: 60px;
+}
+.form__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.bottom__under-row{
+    
 }
 .form__check{
     width: 320px;
     height: 40px;
     margin-right: 20px;
 }
-.form-bottom{
-    font-family: "RobotReg" , serif;
+.form__btn-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form__btn{
+    width: 208px;
+    height: 66px;
+    font-family: "RobotReg" , sans-serif;
     color: #fff;
     font-size: 24px;
     line-height: 75px;
     background-color: #16ba98;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 208px;
-    height: 66px;
+    border: none;
 }
+.input-title{
+    font-family: "RobotReg" , sans-serif;
+    color: #82a6bf;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+}
+
